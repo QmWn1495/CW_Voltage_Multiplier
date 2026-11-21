@@ -501,6 +501,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-VSW"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-VSW"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-VSW\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-VSW_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-VSW_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VAC"
 			(power global)
 			(pin_numbers
@@ -677,10 +792,34 @@
 		(uuid "27f852bf-d1f5-4b6f-a04d-08fff960a43b")
 	)
 	(junction
+		(at 173.99 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348911cc-7181-4dc7-a4b3-79ab9000e412")
+	)
+	(junction
+		(at 153.67 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d1d35e2-ef3e-4d5d-891d-ddc5381c7acc")
+	)
+	(junction
+		(at 153.67 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "472f81ce-814b-4696-90d9-7e10ead4bda5")
+	)
+	(junction
 		(at 143.51 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c24fd7e-e2bf-42dd-bcdb-b84f0b9b2560")
+	)
+	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff0b274-ff90-4596-b01c-08a0a3f83f7e")
 	)
 	(junction
 		(at 158.75 96.52)
@@ -695,16 +834,40 @@
 		(uuid "57a6525f-adf0-4037-a609-82e6ba112a0f")
 	)
 	(junction
-		(at 138.43 97.79)
+		(at 168.91 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b501831-b013-47d0-a95e-92f9290df915")
+		(uuid "582d6b64-d8c7-4033-b6bc-be8e6f15153b")
+	)
+	(junction
+		(at 173.99 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a5987f9-a48c-4eb4-be8d-d5eba3e3d5f4")
+	)
+	(junction
+		(at 163.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d35c470-e06a-4e65-a20c-d1125150f215")
 	)
 	(junction
 		(at 189.23 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62366d68-27f6-40f5-bcd6-9e52e33b2bb8")
+	)
+	(junction
+		(at 148.59 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b6d95cd-9ac2-4bb3-a0b3-f1e9b3723533")
+	)
+	(junction
+		(at 133.35 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70cf0f4d-6c9b-4a8b-a367-ba4894305844")
 	)
 	(junction
 		(at 184.15 91.44)
@@ -737,10 +900,28 @@
 		(uuid "96ad6a8f-86d0-4992-859e-4bea37ee64c2")
 	)
 	(junction
+		(at 189.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee10515-08b0-4c0f-b31b-4762b3a0bfec")
+	)
+	(junction
 		(at 153.67 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a379e5e6-9640-41df-abf2-748f2f4f2ef5")
+	)
+	(junction
+		(at 158.75 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a95a0bcd-11a2-423e-a979-abe93cbd80cf")
+	)
+	(junction
+		(at 148.59 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09989d4-aa6f-4d5c-9665-983d825d01b0")
 	)
 	(junction
 		(at 163.83 90.17)
@@ -749,16 +930,70 @@
 		(uuid "bda5e9bc-e7b7-4243-bd01-536c450a7109")
 	)
 	(junction
+		(at 184.15 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f84a95-6ae5-4dc9-87f1-11807cbfd04a")
+	)
+	(junction
 		(at 143.51 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8087692-8982-44b3-95c7-1610566e5ea2")
 	)
 	(junction
+		(at 143.51 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac48213-4878-4527-a166-02ec69887916")
+	)
+	(junction
+		(at 138.43 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd5d5742-0c43-4f7d-805a-b42ee120fe90")
+	)
+	(junction
+		(at 179.07 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce749837-57f3-4f78-97e9-870ed1dc01fe")
+	)
+	(junction
 		(at 163.83 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a3c8bb-1fc2-4b85-8ea5-66cb6894438e")
+	)
+	(junction
+		(at 163.83 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa3cc93-0d97-4025-ba1e-2fb34d9cf277")
+	)
+	(junction
+		(at 168.91 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3faf074-70c6-439d-b370-9ff258883b6f")
+	)
+	(junction
+		(at 143.51 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec674312-32b1-42fd-a38b-bd143b6666f1")
+	)
+	(junction
+		(at 179.07 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb03c1b-b881-4203-93be-39f93f65dbff")
+	)
+	(junction
+		(at 158.75 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2c0c42-4cf5-461f-8f86-6a94ec135285")
 	)
 	(junction
 		(at 148.59 97.79)
@@ -788,6 +1023,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 97.79) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15113588-fb4e-43f2-aa7b-7f7ce66b40b9")
+	)
+	(wire
+		(pts
 			(xy 168.91 96.52) (xy 168.91 97.79)
 		)
 		(stroke
@@ -795,6 +1040,16 @@
 			(type default)
 		)
 		(uuid "1a3ef68f-6c24-4605-b885-2bb895fdfdcc")
+	)
+	(wire
+		(pts
+			(xy 173.99 105.41) (xy 171.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e39ed2b-6303-4801-a075-48f9da156f48")
 	)
 	(wire
 		(pts
@@ -808,6 +1063,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 111.76) (xy 168.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4c6925-3152-4350-b4dd-049982ee4b2e")
+	)
+	(wire
+		(pts
+			(xy 158.75 111.76) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3157af6c-e65b-4506-84c4-a18f6399d4c0")
+	)
+	(wire
+		(pts
 			(xy 153.67 90.17) (xy 151.13 90.17)
 		)
 		(stroke
@@ -815,6 +1090,16 @@
 			(type default)
 		)
 		(uuid "39755ea8-2aef-4ae9-a9ed-f27a7c61a5a0")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c98512-6fa5-4289-82c8-dee7c0df52ef")
 	)
 	(wire
 		(pts
@@ -838,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 105.41) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5093bc89-8897-4035-b5f8-7dc546fda26b")
+	)
+	(wire
+		(pts
 			(xy 173.99 90.17) (xy 171.45 90.17)
 		)
 		(stroke
@@ -845,6 +1140,36 @@
 			(type default)
 		)
 		(uuid "51b5ff31-4bf6-44b7-b5a1-28d4f3ead6a9")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556a38a2-8467-4d3f-a69f-599c0f4f323e")
+	)
+	(wire
+		(pts
+			(xy 181.61 105.41) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a6f36a-ed8c-4140-9c2f-3a8b68da9fdf")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f50f6b-14b3-4919-8b60-f932a51fdb52")
 	)
 	(wire
 		(pts
@@ -898,6 +1223,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 105.41) (xy 184.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78878f5e-f83a-4b6b-b5b6-6dbf942d1b24")
+	)
+	(wire
+		(pts
 			(xy 189.23 97.79) (xy 186.69 97.79)
 		)
 		(stroke
@@ -918,6 +1253,46 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 111.76) (xy 189.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcda272-b149-471c-875b-edf2f5076737")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15ade5b-b6d2-4f31-8d3b-ccf5a0b86113")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a19b7f-4316-4c85-8630-a9dd56e9a87e")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69b9fb7-8e7b-475c-bb3e-dae884e343e7")
+	)
+	(wire
+		(pts
 			(xy 189.23 96.52) (xy 189.23 97.79)
 		)
 		(stroke
@@ -925,6 +1300,36 @@
 			(type default)
 		)
 		(uuid "a7ab2bf3-c7e7-4968-b321-3f089f243a89")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad6d3ef-10af-4b50-b70d-4d5b7332dac3")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 153.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd9d114-9662-4731-99b2-33c1b50cf90e")
+	)
+	(wire
+		(pts
+			(xy 173.99 105.41) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cd096f-838f-41ba-9e8d-1fa773f094cf")
 	)
 	(wire
 		(pts
@@ -938,6 +1343,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 90.17) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cacc25-cebc-43bb-8599-4614d71ff01f")
+	)
+	(wire
+		(pts
+			(xy 146.05 113.03) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01be670-0080-407d-b9d4-718c222a6192")
+	)
+	(wire
+		(pts
 			(xy 143.51 90.17) (xy 140.97 90.17)
 		)
 		(stroke
@@ -948,6 +1373,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 113.03) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcfc6d7-e637-48c4-9443-1eae2a97d233")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd3978c-d81a-4f30-aa9a-c55589d0fcc3")
+	)
+	(wire
+		(pts
 			(xy 181.61 90.17) (xy 184.15 90.17)
 		)
 		(stroke
@@ -955,6 +1400,16 @@
 			(type default)
 		)
 		(uuid "e63192f7-a51b-4a6a-889b-05041749de81")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6679c64-78b4-499f-9f1b-f867f3d70b83")
 	)
 	(wire
 		(pts
@@ -976,6 +1431,98 @@
 		)
 		(uuid "f8276176-b304-43ec-8f7c-7f74aaa29635")
 	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe11315f-b118-4689-8719-34bf3a80884e")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 113.03 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00dfb2f9-b017-4aa6-8900-1a434c5b2847")
+		(property "Reference" "C15"
+			(at 162.56 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 162.56 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 113.9952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb0bd875-adac-4475-adac-910692c6dc96")
+		)
+		(pin "1"
+			(uuid "cb3e26bc-79d1-4d48-afb5-5539b66242d2")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 142.24 97.79 90)
@@ -990,6 +1537,7 @@
 		(uuid "017b7fd2-4082-4020-a027-6bafe04221cd")
 		(property "Reference" "C6"
 			(at 142.24 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1000,6 +1548,7 @@
 		)
 		(property "Value" "C"
 			(at 142.24 102.87 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1058,7 +1607,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_45deg")
-		(at 151.13 72.39 0)
+		(at 161.29 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1066,10 +1615,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b83a0cd-b58b-4ce6-9cb1-f9487a972fd8")
-		(property "Reference" "D5"
-			(at 152.4001 76.2 90)
+		(uuid "0e5a6244-f225-4fa6-94c1-92b9cdf72428")
+		(property "Reference" "D19"
+			(at 157.48 110.4901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1081,7 +1629,7 @@
 			)
 		)
 		(property "Value" "D_45deg"
-			(at 149.8601 76.2 90)
+			(at 157.48 107.9501 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +1641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 72.39 0)
+			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1104,7 +1652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 72.39 0)
+			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1115,7 +1663,7 @@
 			)
 		)
 		(property "Description" "Diode, rotated by 45°"
-			(at 151.13 72.39 0)
+			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1126,7 +1674,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 151.13 83.82 0)
+			(at 149.86 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1137,7 +1685,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 81.28 0)
+			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1148,15 +1696,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9dd3252-2565-49dd-85b6-5dd2f7c53ff7")
+			(uuid "c5be225e-16e7-4457-9ed0-969f1672533a")
 		)
 		(pin "2"
-			(uuid "5fdc9bed-cd1f-48ce-a3c5-c501d9990e04")
+			(uuid "69381a71-7ff7-45f4-86fa-1e60c7c44dc9")
 		)
 		(instances
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
-					(reference "D5")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -1270,6 +1818,216 @@
 	)
 	(symbol
 		(lib_id "Device:D_45deg")
+		(at 146.05 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17ad4085-4ff5-4c22-831d-3e3f462bf182")
+		(property "Reference" "D16"
+			(at 144.7799 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 147.3199 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 146.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb9cc862-3223-4d3b-a3d7-8bcc4523656d")
+		)
+		(pin "2"
+			(uuid "287a4b7e-7990-431b-a141-e1ddca5457c5")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 140.97 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17b24d36-45e9-47f0-ad5b-922856f99361")
+		(property "Reference" "D6"
+			(at 137.16 110.4901 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 137.16 107.9501 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 140.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcee9661-5e84-4854-9b71-2dc23e2c53a5")
+		)
+		(pin "2"
+			(uuid "4d389bca-6e1f-4f5e-82f4-5b1eff936d55")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
 		(at 151.13 93.98 90)
 		(unit 1)
 		(body_style 1)
@@ -1375,6 +2133,299 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_45deg")
+		(at 171.45 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32a93710-9ddc-4816-80b2-11bd892efa1e")
+		(property "Reference" "D21"
+			(at 167.64 110.4901 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 167.64 107.9501 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe75c25d-9348-4f08-be10-f0ffc6f1d9e5")
+		)
+		(pin "2"
+			(uuid "6599e577-dcb9-4d2e-9abe-9be25bf414c0")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 151.13 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3405ce92-adc4-4d4f-ac3d-6a022c97b235")
+		(property "Reference" "D17"
+			(at 147.32 110.4901 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 147.32 107.9501 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1288e353-6a38-49be-8279-16d79cbf826d")
+		)
+		(pin "2"
+			(uuid "8e81752f-4351-4c73-b2bf-ddb5fd8c5c83")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35bb8d18-0ea3-4178-9197-bc3b843530f1")
+		(property "Reference" "C16"
+			(at 167.64 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 167.64 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 104.4448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25353fe7-f9ca-4eac-b334-a335fed2e500")
+		)
+		(pin "1"
+			(uuid "d37a54a4-a768-45e2-8ad0-6dba58466b70")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 182.88 97.79 90)
 		(mirror x)
@@ -1388,6 +2439,7 @@
 		(uuid "380f9a2f-1151-46a6-bf27-9123d09a3dc1")
 		(property "Reference" "C10"
 			(at 182.88 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1398,6 +2450,7 @@
 		)
 		(property "Value" "C"
 			(at 182.88 102.87 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1449,6 +2502,111 @@
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 156.21 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ca88021-00c3-4984-8502-ff98562d4cc5")
+		(property "Reference" "D18"
+			(at 154.9399 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 157.4799 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 156.21 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8b1e25e-b557-4cc4-9892-2b2cbbe0cc6a")
+		)
+		(pin "2"
+			(uuid "2adb7f77-6f0c-4697-baed-1d10efbf6443")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -1561,6 +2719,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 182.88 113.03 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3db1b7f1-6ad2-4d48-93cc-454d2211bfc0")
+		(property "Reference" "C19"
+			(at 182.88 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 182.88 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 113.9952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5a3ccb2d-b7d3-4bc7-8b81-f5370e0cca73")
+		)
+		(pin "1"
+			(uuid "10d2230f-705f-402b-b438-1386a7b84fac")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_45deg")
 		(at 186.69 93.98 0)
 		(unit 1)
@@ -1667,112 +2907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_45deg")
-		(at 143.51 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "425f58c5-2cb8-41a1-bf4b-ea14a1befa13")
-		(property "Reference" "D4"
-			(at 147.32 71.1199 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_45deg"
-			(at 147.32 73.6599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 154.94 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea68e40f-2975-4487-9dcd-2ce2148bc793")
-		)
-		(pin "2"
-			(uuid "60ba8336-6206-491c-8eea-4238a3745f54")
-		)
-		(instances
-			(project "CW_Voltage_Multiplier"
-				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VSW")
 		(at 189.23 97.79 270)
 		(unit 1)
@@ -1852,8 +2986,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_45deg")
-		(at 135.89 72.39 0)
+		(lib_id "Device:C")
+		(at 157.48 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1862,9 +2996,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d0a9481-8ae4-4385-872e-5208fd67c9eb")
-		(property "Reference" "D3"
-			(at 137.1601 76.2 90)
+		(uuid "4ca5a7b5-0968-4bc0-8b70-83101251ce92")
+		(property "Reference" "C14"
+			(at 157.48 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,11 +3006,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "D_45deg"
-			(at 134.6201 76.2 90)
+		(property "Value" "C"
+			(at 157.48 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1884,11 +3017,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 72.39 0)
+			(at 161.29 104.4448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +3031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 72.39 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,8 +3041,8 @@
 				)
 			)
 		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 135.89 72.39 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,39 +3051,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Device" "D"
-			(at 135.89 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 135.89 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3872097e-656c-46a6-8ab9-cc4c6633c04f")
 		)
 		(pin "2"
-			(uuid "a70ab51d-0308-4e18-bf51-e6808c81c811")
+			(uuid "7adf27fd-7c00-46ff-8d4d-0e6d280710c2")
+		)
+		(pin "1"
+			(uuid "2753a62a-66be-4b6c-8c4b-e258ff7f010b")
 		)
 		(instances
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
-					(reference "D3")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2077,6 +3187,7 @@
 		(uuid "5a607778-ff2d-410c-be91-890fcce20f63")
 		(property "Reference" "C4"
 			(at 167.64 82.55 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2087,6 +3198,7 @@
 		)
 		(property "Value" "C"
 			(at 167.64 85.09 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2138,6 +3250,111 @@
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 176.53 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61281de3-17f8-4c6e-bdcd-df93c493d80f")
+		(property "Reference" "D22"
+			(at 175.2599 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 177.7999 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "574c45bd-108c-4453-8b4b-21487929a7a4")
+		)
+		(pin "2"
+			(uuid "b3c8f23f-807d-43df-bc68-fad3630d01be")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -2236,6 +3453,7 @@
 		(uuid "6ce11315-d132-432c-a0ac-6e766626990d")
 		(property "Reference" "C7"
 			(at 152.4 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2246,6 +3464,7 @@
 		)
 		(property "Value" "C"
 			(at 152.4 102.87 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2409,6 +3628,194 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_45deg")
+		(at 186.69 109.22 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76cf219e-cdd5-4fbf-8eeb-ef27cca14c9e")
+		(property "Reference" "D24"
+			(at 182.88 107.9499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 182.88 110.4899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41539114-18ba-4a10-bd2e-b5e2221186a2")
+		)
+		(pin "2"
+			(uuid "fb576c22-186d-497f-a998-752ac101dc55")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79f2bd98-ecdc-4511-97e4-77d1b50ada78")
+		(property "Reference" "C12"
+			(at 147.32 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 104.4448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34eaaa32-022c-437e-a1b1-3313fc53ede2")
+		)
+		(pin "1"
+			(uuid "baad7ae3-c895-400c-9ef1-248ac1f70441")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 172.72 97.79 90)
 		(mirror x)
@@ -2422,6 +3829,7 @@
 		(uuid "7cc1d75f-25b0-4a14-8653-8e451c453e63")
 		(property "Reference" "C9"
 			(at 172.72 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2432,6 +3840,7 @@
 		)
 		(property "Value" "C"
 			(at 172.72 102.87 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2595,6 +4004,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VSW")
+		(at 189.23 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "815dfab9-da9a-426b-b2d2-e97186341cfb")
+		(property "Reference" "#PWR04"
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-VSW"
+			(at 193.04 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9356a659-330a-4699-b89c-32b9b32d0b1e")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VAC")
 		(at 133.35 90.17 90)
 		(unit 1)
@@ -2687,6 +4175,7 @@
 		(uuid "97c0b493-9d62-4171-8904-018c4d9496ca")
 		(property "Reference" "C3"
 			(at 157.48 82.55 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2697,6 +4186,7 @@
 		)
 		(property "Value" "C"
 			(at 157.48 85.09 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2767,6 +4257,7 @@
 		(uuid "9afc2878-826d-4897-9b0e-8a557acc8217")
 		(property "Reference" "C5"
 			(at 177.8 82.55 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,6 +4268,7 @@
 		)
 		(property "Value" "C"
 			(at 177.8 85.09 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2835,6 +4327,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 137.16 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0ba8f24-f5b4-4cb7-a2aa-8b385918b90b")
+		(property "Reference" "C20"
+			(at 137.16 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 137.16 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 104.4448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5c62ab7-2dae-4679-8e80-95150d7c7ae8")
+		)
+		(pin "1"
+			(uuid "4b49be90-56a2-4d1f-a012-293779e8acba")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 162.56 97.79 90)
 		(mirror x)
 		(unit 1)
@@ -2847,6 +4421,7 @@
 		(uuid "b1b0da73-6e78-424b-b068-56b575cbfb4e")
 		(property "Reference" "C8"
 			(at 162.56 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2857,6 +4432,7 @@
 		)
 		(property "Value" "C"
 			(at 162.56 102.87 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2914,6 +4490,275 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_45deg")
+		(at 166.37 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb332496-00c2-43be-8570-ac87ce9d5ca9")
+		(property "Reference" "D20"
+			(at 165.0999 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 167.6399 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda0f659-2bd3-404a-9fd7-8e63acc35f88")
+		)
+		(pin "2"
+			(uuid "d0e19677-b60d-4113-84bd-fd3863e6cf96")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 113.03 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd5a1524-21fc-4638-8f2a-a09d38a4de05")
+		(property "Reference" "C13"
+			(at 152.4 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 152.4 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 113.9952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6989553-20e0-4b72-93f6-6da8b22f198c")
+		)
+		(pin "1"
+			(uuid "041be5a5-eff8-4075-b4fc-db5c7f8ed04d")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 113.03 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd7b5614-9f91-4d98-809c-6796ff46f08f")
+		(property "Reference" "C11"
+			(at 142.24 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 142.24 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 113.9952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c0bcf3a0-c88a-457e-a34c-a2566c5b04fc")
+		)
+		(pin "1"
+			(uuid "176948eb-d5b7-43df-ac1a-c22d73b14b70")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 90.17 90)
 		(unit 1)
@@ -2927,6 +4772,7 @@
 		(uuid "c16ecf32-923e-4133-9c13-af07f9c0dba7")
 		(property "Reference" "C2"
 			(at 147.32 82.55 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2937,6 +4783,7 @@
 		)
 		(property "Value" "C"
 			(at 147.32 85.09 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2988,6 +4835,88 @@
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c63aaa-39d0-43a8-8d32-c650da8d3f9e")
+		(property "Reference" "C18"
+			(at 177.8 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 177.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 104.4448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "915cd7af-5fc9-4261-a57f-067a880beea8")
+		)
+		(pin "1"
+			(uuid "f1fcfdcc-4650-4105-bb2f-1a0e8d4b7c76")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3113,6 +5042,7 @@
 		(uuid "db910ba8-005f-43ae-a673-7f0ce401d64a")
 		(property "Reference" "C1"
 			(at 137.16 82.55 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3123,6 +5053,7 @@
 		)
 		(property "Value" "C"
 			(at 137.16 85.09 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3174,6 +5105,88 @@
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 113.03 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e914b762-0daf-4f38-8807-8f1ca2c49893")
+		(property "Reference" "C17"
+			(at 172.72 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 172.72 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 113.9952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e1ff735-cd79-40bc-9eba-7e8e8b72fc39")
+		)
+		(pin "1"
+			(uuid "49b626b6-c468-4581-980e-d65da4f2f0ca")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3287,6 +5300,111 @@
 	)
 	(symbol
 		(lib_id "Device:D_45deg")
+		(at 181.61 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f36528b9-c265-48de-9e62-f600bb51042b")
+		(property "Reference" "D23"
+			(at 177.8 110.4901 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 177.8 107.9501 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7805e222-8a23-49ea-ae08-4a744f984f82")
+		)
+		(pin "2"
+			(uuid "9067aaa9-9908-43f3-b296-132d403aca24")
+		)
+		(instances
+			(project "CW_Voltage_Multiplier"
+				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
 		(at 166.37 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -3386,112 +5504,6 @@
 			(project "CW_Voltage_Multiplier"
 				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_45deg")
-		(at 144.78 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe21d0ff-4a2f-45cf-a284-3047f0e94544")
-		(property "Reference" "D6"
-			(at 146.0501 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_45deg"
-			(at 143.5101 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 144.78 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b3490f1-4736-44d1-a5eb-b8b95d4e1cb2")
-		)
-		(pin "2"
-			(uuid "16720f06-3996-4146-bd26-44f96fa7bbd1")
-		)
-		(instances
-			(project "CW_Voltage_Multiplier"
-				(path "/db8ebbb2-eb4d-435b-a1f2-30a55f9a5151"
-					(reference "D6")
 					(unit 1)
 				)
 			)
